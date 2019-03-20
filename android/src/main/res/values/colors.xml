@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#010101</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#010101</color>
+    <color name="colorPrimaryPWE">#010101</color>
+    <color name="colorPrimaryDarkPWE">#333333</color>
+    <color name="colorAccentPWE">#010101</color>
+    <color name="colorPweAccent">#010101</color>
+    <color name="colorPwePrimaryDark">#333333</color>
+    <color name="colorPwePrimaryRed">#B71C1C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimaryRed">#B71C1C</color>
+    <color name="gray">#808080</color>
+    <color name="white_snow">#FFFAFA</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="levender">#E6E6FA</color>
+    <color name="green">#060</color>
+    <color name="mintcream">#F5FFFA</color>
+    <color name="gray_light">#DCDCDC</color>
+    <color name="colorPweBackground">#F0F0F0</color>
+    <color name="test_env_notif_color">#B71C1C</color>
+    <color name="alert_color">#B71C1C</color>
+    <color name="translucent_scrim_top">#26000000</color>
+    <color name="translucent_scrim_top_center">#0C000000</color>
+    <color name="translucent_scrim_bottom">#2A000000</color>
+    <color name="translucent_scrim_bottom_center">#0D000000</color>
+    <color name="button_color">#2163d1</color>
+
+</resources>

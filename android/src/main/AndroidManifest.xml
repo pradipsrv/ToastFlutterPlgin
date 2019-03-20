@@ -3,7 +3,8 @@
     package="com.easebuzz.sample_toast_plugin">
 
     <application>
-        <activity android:name=".PluginActivity"></activity>
+        <activity android:name=".PluginActivity"
+            android:theme="@style/NoActionBarTheme"></activity>
     </application>
 
 </manifest>
