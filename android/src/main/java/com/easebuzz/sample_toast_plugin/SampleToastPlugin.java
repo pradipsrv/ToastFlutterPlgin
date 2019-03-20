@@ -9,7 +9,8 @@ import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /** SampleToastPlugin */
-public class SampleToastPlugin implements MethodCallHandler {
+public class
+SampleToastPlugin implements MethodCallHandler {
   /** Plugin registration. */
   public static Registrar registrar_;
   public static void registerWith(Registrar registrar) {
@@ -23,7 +24,8 @@ public class SampleToastPlugin implements MethodCallHandler {
     if (call.method.equals("getPlatformVersion")) {
       result.success("Android " + android.os.Build.VERSION.RELEASE);
     } else if(call.method.equals("showToast")){
-      Toast.makeText(registrar_.context(),"This is sample toast", Toast.LENGTH_LONG).show();
+        String msg = call.argument("message");
+      Toast.makeText(registrar_.context(),msg, Toast.LENGTH_LONG).show();
     }else
     {
       result.notImplemented();
