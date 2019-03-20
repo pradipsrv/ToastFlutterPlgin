@@ -33,6 +33,7 @@ SampleToastPlugin implements MethodCallHandler {
     {
 
       Intent showactivity = new Intent(registrar_.activity(),PluginActivity.class);
+      showactivity.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       registrar_.context().startActivity(showactivity);
 
     }else

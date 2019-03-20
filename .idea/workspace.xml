@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d70b8a54-9ff6-460a-8556-71476ba04ef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/sample_toast_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sample_toast_plugin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/easebuzz/sample_toast_plugin/SampleToastPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/easebuzz/sample_toast_plugin/SampleToastPlugin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/sample_toast_plugin.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="255">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -253,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/sample_toast_plugin.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="255">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
