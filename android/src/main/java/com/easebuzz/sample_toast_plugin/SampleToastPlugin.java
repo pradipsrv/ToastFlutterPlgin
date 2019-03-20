@@ -1,5 +1,6 @@
 package com.easebuzz.sample_toast_plugin;
 
+import android.content.Intent;
 import android.widget.Toast;
 
 import io.flutter.plugin.common.MethodCall;
@@ -24,8 +25,16 @@ SampleToastPlugin implements MethodCallHandler {
     if (call.method.equals("getPlatformVersion")) {
       result.success("Android " + android.os.Build.VERSION.RELEASE);
     } else if(call.method.equals("showToast")){
-        String msg = call.argument("message");
+
+      String msg = call.argument("message");
       Toast.makeText(registrar_.context(),msg, Toast.LENGTH_LONG).show();
+
+    }else if(call.method.equals("showActivity"))
+    {
+
+      Intent showactivity = new Intent(registrar_.activity(),PluginActivity.class);
+      registrar_.context().startActivity(showactivity);
+
     }else
     {
       result.notImplemented();
