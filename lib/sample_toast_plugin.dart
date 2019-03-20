@@ -13,4 +13,9 @@ class SampleToastPlugin {
   static showToast(String message) {
     _channel.invokeMethod("showToast", {"message": message});
   }
+
+
+  static openAcitivity() {
+    _channel.invokeMethod("showActivity");
+  }
 }
