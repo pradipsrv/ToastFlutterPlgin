@@ -3,6 +3,8 @@ package com.easebuzz.sample_toast_plugin;
 import android.content.Intent;
 import android.widget.Toast;
 
+import com.easebuzz.payment.kit.PWECouponsActivity;
+
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
@@ -32,13 +34,32 @@ SampleToastPlugin implements MethodCallHandler {
     }else if(call.method.equals("showActivity"))
     {
 
-      Intent showactivity = new Intent(registrar_.activity(),PluginActivity.class);
-      showactivity.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-      registrar_.context().startActivity(showactivity);
+//      Intent showactivity = new Intent(registrar_.activity(),PluginActivity.class);
+//      showactivity.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//      registrar_.context().startActivity(showactivity);
 
-    }else
+    }else if(call.method.equals("payWithEasebuzz"))
+  {
+
+
+
+    Intent showactivity = new Intent(registrar_.activity(),PluginActivity.class);
+    showactivity.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    registrar_.context().startActivity(showactivity);
+
+
+
+  }else
     {
       result.notImplemented();
     }
   }
+
+  public void listenResponse(String response)
+  {
+     System.out.println("test payment response=="+response);
+  }
+
+
+
 }

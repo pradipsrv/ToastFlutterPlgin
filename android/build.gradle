@@ -35,4 +35,6 @@ android {
 
 dependencies {
     implementation 'com.android.support.constraint:constraint-layout:+'
+    implementation 'com.easebuzz.payment.kit:payment:1.1.payment'
+
 }

@@ -18,4 +18,10 @@ class SampleToastPlugin {
   static openAcitivity() {
     _channel.invokeMethod("showActivity");
   }
+
+  static paywitheasebuzz() {
+    _channel.invokeMethod("payWithEasebuzz");
+  }
+
+
 }
